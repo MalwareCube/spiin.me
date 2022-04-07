@@ -13,7 +13,7 @@ function App() {
     <HelmetProvider>
     <Helmet>
       <meta charSet="utf-8" />
-      <title>AbShift - Workout Generator</title>
+      <title>spiin.me - The Magical Decision Maker</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
 
       {/*Favicon Links*/}
