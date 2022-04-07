@@ -12,7 +12,9 @@ export default function SearchForm() {
         className="spinForm"
         onSubmit={(e) => {
             e.preventDefault()
+            if(searchValue) {
             navigate("/" + searchValue)
+            }
           }
           }
         >

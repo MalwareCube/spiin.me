@@ -23,7 +23,18 @@ export default function Header() {
   "mario party,fall guys,amogus,civilization",
   "1984,dune,cinder,highrise",
   "rust,dayz,tarkov,pubg",
-  "mexico,cuba,hawaii,jamaica,bahamas"
+  "mexico,cuba,hawaii,jamaica,bahamas",
+  "to be,not to be",
+  "xbox,playstation,switch,pc",
+  "white and gold,black and blue",
+  "coinflip",
+  "eggs,toast,cereal",
+  "pepperoni,pinapple,meatlovers,vegetarian",
+  "apples,pears,oranges,bananas,watermelons",
+  "penne,rigatoni,bucatini,macaroni,linguine",
+  "red,white,rose,sparkling",
+  "vodka,whiskey,brandy,gin",
+  "margarita,old fashioned,manhattan,daiquiri"
 ]
   
   //Initial random set
