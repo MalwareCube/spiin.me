@@ -6,11 +6,12 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /*Fonts*/
 @font-face {
-	font-family: 'Rockwell', 'Georgia', sans-serif;
+	font-family: 'Rockwell';
 	font-style: normal;
 	font-weight: 400;
-	src: url('../public/fonts/Rockwell.woff2') format('woff2'),
-		 url('../public/fonts/Rockwell.woff') format('woff');
+	src: local('Rockwell'),
+		url('./fonts/Rockwell.woff2') format('woff2'),
+		url('./fonts/Rockwell.woff') format('woff');
   }
   
 /*End of Fonts*/
@@ -30,7 +31,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 --grey2: #6e6e6e;
 
 /*Fonts*/
---primary-font: 'Rockwell';
+--primary-font: 'Rockwell', 'Georgia', sans-serif;
 --font-size1: 1.2em;
 
 }

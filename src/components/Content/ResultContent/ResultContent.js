@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { useParams } from 'react-router-dom'
 
 import WelcomeText from '../HomeContent/WelcomeText'
 import SearchForm from '../HomeContent/SearchForm'
-import CurlText from '../HomeContent/CurlText'
 
 export default function ResultContent() {
   
@@ -14,11 +13,6 @@ export default function ResultContent() {
   
   //Randomize and get result
   const [randomPick, setRandomPick] = useState(spinArray[Math.floor(Math.random()*(spinArray.length))]);
-
-  useEffect(()=> {
-    spinAgain()
-  })
-
   
   //Spin Again
   function spinAgain() {
